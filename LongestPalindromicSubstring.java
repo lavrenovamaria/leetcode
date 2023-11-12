@@ -4,7 +4,7 @@ public class LongestPalindromicSubstring {
     public boolean isPalindrome(String s) {
         int middle = s.length() / 2;
         for (int i = 0; i < middle; i++) {
-            if (s.charAt(i) != s.charAt(s.length() - i - 1))
+            if (s.charAt(i) != s.charAt(s.length() - i - 1)) 
                 return false;
         }
         return true;
